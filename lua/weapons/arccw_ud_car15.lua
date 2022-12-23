@@ -4,7 +4,7 @@ include("weapons/arccw_ud_m16.lua")
 
 SWEP.Category = "ArcCW - UC Presets"
 
-SWEP.PrintName = "Stoner Commando"
+SWEP.PrintName = "AMCAR-2" -- Stoner Commando is better, fuck you
 SWEP.TrueName = "CAR-15"
 if GetConVar("arccw_truenames"):GetBool() then
     SWEP.PrintName = SWEP.TrueName
