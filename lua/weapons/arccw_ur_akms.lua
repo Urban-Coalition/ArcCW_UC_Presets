@@ -4,7 +4,7 @@ include("weapons/arccw_ur_ak.lua")
 
 SWEP.Category = "ArcCW - UC Presets"
 
-SWEP.PrintName = "AVRS-59" -- make this something russian and cool
+SWEP.PrintName = "KFS-67" -- make this something russian and cool
 SWEP.TrueName = "AKMS"
 if GetConVar("arccw_truenames"):GetBool() then
     SWEP.PrintName = SWEP.TrueName

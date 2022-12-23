@@ -13,5 +13,5 @@ end
 SWEP.Attachments[1].Installed = "ur_deagle_tritium"
 SWEP.Attachments[2].Installed = "ur_deagle_barrel_compen"
 SWEP.Attachments[3].Installed = "ur_deagle_caliber_357"
-SWEP.Attachments[8].Installed = "ur_deagle_grip_rubber"
-SWEP.Attachments[14].Installed = "ur_deagle_skin_black"
+SWEP.Attachments[7].Installed = "ur_deagle_grip_rubber"
+SWEP.Attachments[13].Installed = "ur_deagle_skin_black"

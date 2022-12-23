@@ -12,5 +12,5 @@ end
 
 SWEP.Attachments[2].Installed = "ur_mp5_barrel_kurz"
 --SWEP.Attachments[3].Installed = "ur_mp5_caliber_noburst"
-SWEP.Attachments[5].Installed = "ur_mp5_ub_kurzgrip"
+--SWEP.Attachments[5].Installed = "ur_mp5_ub_kurzgrip"
 SWEP.Attachments[8].Installed = "ur_mp5_stock_pdw"
