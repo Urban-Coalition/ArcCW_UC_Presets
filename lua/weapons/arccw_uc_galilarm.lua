@@ -10,9 +10,9 @@ if GetConVar("arccw_truenames"):GetBool() then
     SWEP.PrintName = SWEP.TrueName
 end
 
+SWEP.Attachments[1].Installed = "uc_galil_charm_ns"
 SWEP.Attachments[5].Installed = "uc_galil_underbarrel_bipod"
 SWEP.Attachments[8].Installed = "uc_galil_mag_drum"
-SWEP.Attachments[13].Installed = "uc_galil_charm_ns"
 
 SWEP.Hook_NameChange = function(wep)
     if wep.Attachments[2].Installed ~= "uc_galil_barrel_short" then
