@@ -3,6 +3,9 @@ if !file.Exists("weapons/arccw_uc_galil.lua","LUA") then return end
 include("weapons/arccw_uc_galil.lua")
 
 SWEP.Category = "ArcCW - UC Presets"
+if GetConVar("arccw_uc_presets_categorize"):GetBool() then
+    SWEP.Category = "ArcCW - UC Presets Rifles"
+end
 
 SWEP.PrintName = "IDF Defender 7.62"
 SWEP.TrueName = "Galil AR 7.62"

@@ -3,6 +3,10 @@ if !file.Exists("weapons/arccw_uc_usp.lua","LUA") then return end
 include("weapons/arccw_uc_usp.lua") // Deriving the class from the base USP doesn't work because SWEP.Attachments is left blank
 
 SWEP.Category = "ArcCW - UC Presets"
+SWEP.Category = "ArcCW - UC Presets"
+if GetConVar("arccw_uc_presets_categorize"):GetBool() then
+    SWEP.Category = "ArcCW - UC Presets Pistols"
+end
 
 SWEP.PrintName = "P93 Match"
 SWEP.TrueName = "USP Match"

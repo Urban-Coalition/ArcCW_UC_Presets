@@ -3,6 +3,9 @@ if !file.Exists("arccw/shared/languages/ud_en.lua","LUA") then return end
 include("weapons/arccw_ud_uzi.lua")
 
 SWEP.Category = "ArcCW - UC Presets"
+if GetConVar("arccw_uc_presets_categorize"):GetBool() then
+    SWEP.Category = "ArcCW - UC Presets SMGs"
+end
 
 SWEP.PrintName = "IAL-M9"
 SWEP.TrueName = "Micro Uzi"

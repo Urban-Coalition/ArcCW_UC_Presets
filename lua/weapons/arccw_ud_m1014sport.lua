@@ -3,6 +3,9 @@ if !file.Exists("arccw/shared/languages/ud_en.lua","LUA") then return end
 include("weapons/arccw_ud_m1014.lua")
 
 SWEP.Category = "ArcCW - UC Presets"
+if GetConVar("arccw_uc_presets_categorize"):GetBool() then
+    SWEP.Category = "ArcCW - UC Presets Shotguns"
+end
 
 SWEP.PrintName = "FC1040 Sporter"
 SWEP.TrueName = "Benelli M4 Sporter"

@@ -3,8 +3,11 @@ if !file.Exists("arccw/shared/sh_1_ur.lua","LUA") then return end
 include("weapons/arccw_ur_ak.lua")
 
 SWEP.Category = "ArcCW - UC Presets"
+if GetConVar("arccw_uc_presets_categorize"):GetBool() then
+    SWEP.Category = "ArcCW - UC Presets SMGs"
+end
 
-SWEP.PrintName = "PP-19 Vityaz" -- temp
+SWEP.PrintName = "Bogatyr SMG"
 SWEP.TrueName = "PP-19 Vityaz"
 if GetConVar("arccw_truenames"):GetBool() then
     SWEP.PrintName = SWEP.TrueName

@@ -3,6 +3,9 @@ if !file.Exists("arccw/shared/languages/ud_en.lua","LUA") then return end
 include("weapons/arccw_ud_mini14.lua")
 
 SWEP.Category = "ArcCW - UC Presets"
+if GetConVar("arccw_uc_presets_categorize"):GetBool() then
+    SWEP.Category = "ArcCW - UC Presets DMRs"
+end
 
 SWEP.PrintName = "Patriot 816"
 SWEP.TrueName = "Mini-30"

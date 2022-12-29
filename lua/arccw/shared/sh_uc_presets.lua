@@ -1,3 +1,5 @@
+CreateConVar("arccw_uc_presets_categorize","0",FCVAR_ARCHIVE,"If enabled, UC Presets weapons will be categorized by weapon class in the spawnmenu. It is recommended to use this with more than one pack installed.\nRequires a server restart to update.")
+
 -- -- CTRL-A + CTRL-/ WHEN YOU FIGURE OUT HOW TO MAKE THIS WORK
 
 -- hook.Add( "PopulateWeapons", "UCP_AddWeaponContent", function( pnlContent, tree, node )

@@ -3,6 +3,9 @@ if !file.Exists("arccw/shared/sh_1_ur.lua","LUA") then return end
 include("weapons/arccw_ur_aw.lua")
 
 SWEP.Category = "ArcCW - UC Presets"
+if GetConVar("arccw_uc_presets_categorize"):GetBool() then
+    SWEP.Category = "ArcCW - UC Presets Rifles"
+end
 
 SWEP.PrintName = "Apex Precision Obrez"
 SWEP.TrueName = "AWP Obrez"

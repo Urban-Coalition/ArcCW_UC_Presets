@@ -3,6 +3,9 @@ if !file.Exists("arccw/shared/languages/ud_en.lua","LUA") then return end
 include("weapons/arccw_ud_m16.lua")
 
 SWEP.Category = "ArcCW - UC Presets"
+if GetConVar("arccw_uc_presets_categorize"):GetBool() then
+    SWEP.Category = "ArcCW - UC Presets Rifles"
+end
 
 SWEP.PrintName = "AMCAR-2" -- Stoner Commando is better, fuck you
 SWEP.TrueName = "CAR-15"
