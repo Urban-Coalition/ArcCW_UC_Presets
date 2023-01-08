@@ -14,7 +14,7 @@ if GetConVar("arccw_truenames"):GetBool() then
 end
 
 SWEP.Attachments[2].Installed = "ud_uzi_body_mini"
-SWEP.Attachments[7].Installed = "ud_uzi_stock_folded"
+SWEP.Attachments[7].Installed = "ud_uzi_stock_remove"
 
 SWEP.Hook_NameChange = function(wep)
     if !wep.Attachments[2].Installed then
