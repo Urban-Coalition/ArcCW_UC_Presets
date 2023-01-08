@@ -19,3 +19,4 @@ SWEP.Attachments[6].Installed = "ud_m16_receiver_fpw"
 SWEP.Attachments[10].Installed = "ud_m16_stock_231"
 
 SWEP.NPCWeaponType = nil
+SWEP.Attachments[10].ToggleLock = true

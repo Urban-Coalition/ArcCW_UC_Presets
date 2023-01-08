@@ -17,3 +17,5 @@ SWEP.Attachments[1].Installed = "ur_mp5_optic_alt"
 SWEP.Attachments[2].Installed = "ur_mp5_barrel_sd"
 --SWEP.Attachments[3].Installed = "ur_mp5_caliber_noburst"
 SWEP.Attachments[8].Installed = "ur_mp5_stock_a3"
+
+SWEP.Attachments[8].ToggleLock = true

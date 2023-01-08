@@ -20,3 +20,4 @@ SWEP.Attachments[8].Installed = "ur_mp5_stock_future"
 SWEP.Attachments[9].Installed = "ur_mp5_mag_50"
 
 SWEP.NPCWeaponType = nil
+SWEP.Attachments[8].ToggleLock = true

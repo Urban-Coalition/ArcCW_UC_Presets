@@ -22,3 +22,5 @@ SWEP.Attachments[10].Installed = "ud_m16_stock_carbine"
 SWEP.Attachments[16].Installed = "ud_m16_fs_kac"
 
 SWEP.NPCWeaponType = "weapon_smg1"
+SWEP.Attachments[10].ToggleNum = 2
+SWEP.Attachments[10].ToggleLock = true

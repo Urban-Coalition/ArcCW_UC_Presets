@@ -16,3 +16,5 @@ end
 SWEP.Attachments[3].Installed = "ur_mp5_caliber_10auto"
 SWEP.Attachments[5].Installed = "ur_mp5_ub_ris" -- "uc_grip_troyshort"
 SWEP.Attachments[8].Installed = "ur_mp5_stock_a3"
+
+SWEP.Attachments[8].ToggleLock = true

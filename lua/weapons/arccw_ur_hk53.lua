@@ -18,3 +18,5 @@ SWEP.Attachments[3].Installed = "ur_g3_rec_hk33"
 SWEP.Attachments[4].Installed = "ur_mp5_ub_surefire"
 SWEP.Attachments[8].Installed = "ur_g3_stock_collapsible"
 SWEP.Attachments[9].Installed = "ur_g3_mag_20_556"
+
+SWEP.Attachments[8].ToggleLock = true

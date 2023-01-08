@@ -18,3 +18,6 @@ SWEP.Attachments[5].Installed = "ur_ak_cal_556"
 SWEP.Attachments[9].Installed = "ur_ak_grip_alpha"
 SWEP.Attachments[10].Installed = "ur_ak_stock_ak74m"
 SWEP.Attachments[15].Installed = "ur_ak_cover_smooth"
+
+SWEP.Attachments[3].ToggleLock = true
+SWEP.Attachments[10].ToggleLock = true

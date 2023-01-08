@@ -16,3 +16,5 @@ end
 SWEP.Attachments[6].Installed = "ur_ak_mag_762_bakelite"
 SWEP.Attachments[3].Installed = "ur_ak_hg_dong"
 SWEP.Attachments[10].Installed = "ur_ak_stock_underfolder"
+
+SWEP.Attachments[10].ToggleLock = true

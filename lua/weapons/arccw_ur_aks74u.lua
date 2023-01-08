@@ -18,3 +18,4 @@ SWEP.Attachments[5].Installed = "ur_ak_cal_545"
 SWEP.Attachments[10].Installed = "ur_ak_stock_aks"
 
 SWEP.NPCWeaponType = "weapon_smg1"
+SWEP.Attachments[10].ToggleLock = true

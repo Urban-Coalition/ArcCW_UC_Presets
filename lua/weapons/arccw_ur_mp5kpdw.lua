@@ -18,3 +18,5 @@ SWEP.Attachments[2].Installed = "ur_mp5_barrel_kurz"
 --SWEP.Attachments[5].Installed = "ur_mp5_ub_kurzgrip"
 SWEP.Attachments[8].Installed = "ur_mp5_stock_pdw"
 SWEP.Attachments[9].Installed = "ur_mp5_mag_15"
+
+SWEP.Attachments[8].ToggleLock = true
