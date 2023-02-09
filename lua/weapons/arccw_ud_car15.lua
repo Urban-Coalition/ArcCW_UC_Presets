@@ -14,6 +14,7 @@ if GetConVar("arccw_truenames"):GetBool() then
 end
 
 SWEP.Attachments[2].Installed = "ud_m16_barrel_10in"
+SWEP.Attachments[4].Installed = "ud_m16_muzzle_xm177"
 SWEP.Attachments[5].Installed = "ud_m16_receiver_a1"
 SWEP.Attachments[6].Installed = "ud_m16_receiver_auto"
 SWEP.Attachments[10].Installed = "ud_m16_stock_carbine"

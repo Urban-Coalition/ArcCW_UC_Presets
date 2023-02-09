@@ -7,15 +7,15 @@ if GetConVar("arccw_uc_presets_categorize"):GetBool() then
     SWEP.Category = "ArcCW - UC Presets SMGs"
 end
 
-SWEP.PrintName = "PK5/10"
-SWEP.TrueName = "MP5/10"
+SWEP.PrintName = "PK5-3"
+SWEP.TrueName = "MP5A3"
 if GetConVar("arccw_truenames"):GetBool() then
     SWEP.PrintName = SWEP.TrueName
 end
 
-SWEP.Attachments[3].Installed = "ur_mp5_caliber_10auto"
-SWEP.Attachments[5].Installed = "ur_mp5_ub_ris" -- "uc_grip_troyshort"
+SWEP.Attachments[1].Installed = "ur_mp5_optic_alt"
+SWEP.Attachments[3].Installed = "ur_mp5_caliber_noburst"
+SWEP.Attachments[5].Installed = "ur_mp5_ub_classic"
 SWEP.Attachments[8].Installed = "ur_mp5_stock_a3"
-SWEP.Attachments[14].Installed = "ur_mp5_optic_mount"
 
 SWEP.Attachments[8].ToggleLock = true

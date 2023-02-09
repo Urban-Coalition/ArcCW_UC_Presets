@@ -18,7 +18,7 @@ SWEP.Attachments[2].Installed = "ud_m16_barrel_10in"
 SWEP.Attachments[3].Installed = "ud_m16_hg_tactical"
 SWEP.Attachments[5].Installed = "ud_m16_receiver_9mm"
 SWEP.Attachments[6].Installed = "ud_m16_receiver_auto"
-SWEP.Attachments[10].Installed = "ud_m16_stock_carbine"
+SWEP.Attachments[10].Installed = "ud_m16_stock_sopmod"
 SWEP.Attachments[11].Installed = "ud_m16_mag_9mm_32"
 
 SWEP.NPCWeaponType = "weapon_smg1"
