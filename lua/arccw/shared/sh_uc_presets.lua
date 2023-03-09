@@ -1,4 +1,5 @@
 CreateConVar("arccw_uc_presets_categorize","0",FCVAR_ARCHIVE,"If enabled, UC Presets weapons will be categorized by weapon class in the spawnmenu. It is recommended to use this with more than one pack installed.\nRequires a server restart to update.")
+--CreateConVar("arccw_uc_presets_dmrrifle","0",FCVAR_ARCHIVE,"If enabled, UC Presets DMR weapons will replace AR2s instead of crossbows. This will make them a more frequent sight in NPC battles.")
 
 -- -- CTRL-A + CTRL-/ WHEN YOU FIGURE OUT HOW TO MAKE THIS WORK
 

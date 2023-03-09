@@ -8,7 +8,7 @@ if GetConVar("arccw_uc_presets_categorize"):GetBool() then
 end
 
 SWEP.PrintName = "AMCAR-2" -- Stoner Commando is better, fuck you
-SWEP.TrueName = "CAR-15"
+SWEP.TrueName = "M609"
 if GetConVar("arccw_truenames"):GetBool() then
     SWEP.PrintName = SWEP.TrueName
 end

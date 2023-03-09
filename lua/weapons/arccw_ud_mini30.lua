@@ -8,7 +8,7 @@ if GetConVar("arccw_uc_presets_categorize"):GetBool() then
 end
 
 SWEP.PrintName = "Patriot 816"
-SWEP.TrueName = "Mini-30"
+SWEP.TrueName = "Mini Thirty"
 if GetConVar("arccw_truenames"):GetBool() then
     SWEP.PrintName = SWEP.TrueName
 end

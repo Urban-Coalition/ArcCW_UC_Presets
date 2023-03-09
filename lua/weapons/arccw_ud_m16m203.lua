@@ -16,3 +16,5 @@ end
 SWEP.Attachments[3].Installed = "ud_m16_hg_heat"
 SWEP.Attachments[16].Installed = "ud_m16_charm_ch"
 SWEP.Attachments[18].Installed = "uc_ubgl_m203"-- UBGLs go in the funny hidden slot, not the UB slot
+
+SWEP.Attachments[18].ToggleLock = true
