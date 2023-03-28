@@ -19,3 +19,4 @@ SWEP.Attachments[8].Installed = "ur_mp5_stock_a3"
 SWEP.Attachments[15].Installed = "uc_ubgl_m203" -- UBGLs go in the funny hidden slot, not the UB slot
 
 SWEP.Attachments[8].ToggleLock = true
+SWEP.Attachments[15].ToggleNum = 1
