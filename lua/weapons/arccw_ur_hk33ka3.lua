@@ -1,3 +1,4 @@
+if true then return end
 if !file.Exists("arccw/shared/sh_1_ur.lua","LUA") then return end
 
 include("weapons/arccw_ur_g3.lua")
